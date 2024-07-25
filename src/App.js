@@ -1,6 +1,6 @@
 import React from 'react';
-import './App.css'; // Assurez-vous que ce chemin correspond à votre fichier CSS
-import Control from './components/Control'; // Import correct du composant Control
+import './App.css'; 
+import Control from './components/Control'; 
 
 function formatTime(time) {
     let mm = Math.floor(time / 60);
